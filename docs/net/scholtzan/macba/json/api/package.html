@@ -1,0 +1,204 @@
+<!DOCTYPE html >
+<html>
+        <head>
+          <title>api - net.scholtzan.macba.json.api</title>
+          <meta name="description" content="api - net.scholtzan.macba.json.api" />
+          <meta name="keywords" content="api net.scholtzan.macba.json.api" />
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link href="../../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../../lib/jquery.js" id="jquery-js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../../index.html';
+            var hash = 'net.scholtzan.macba.json.api.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img alt="Package" src="../../../../../lib/package_big.png" />
+        <p id="owner"><a href="../../../../package.html" class="extype" name="net">net</a>.<a href="../../../package.html" class="extype" name="net.scholtzan">scholtzan</a>.<a href="../../package.html" class="extype" name="net.scholtzan.macba">macba</a>.<a href="../package.html" class="extype" name="net.scholtzan.macba.json">json</a></p>
+        <h1>api</h1><span class="permalink">
+      <a href="../../../../../index.html#net.scholtzan.macba.json.api.package" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      </div>
+
+      <h4 id="signature" class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">api</span>
+      </span>
+      </h4>
+      
+          <div id="comment" class="fullcommenttop"></div>
+        
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div id="types" class="types members">
+              <h3>Type Members</h3>
+              <ol><li name="net.scholtzan.macba.json.api.JsonArrayBuilder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="JsonArrayBuilderextendsJsonBuilder"></a>
+      <a id="JsonArrayBuilder:JsonArrayBuilder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="JsonArrayBuilder.html"><span class="name">JsonArrayBuilder</span></a><span class="result"> extends <a href="JsonBuilder.html" class="extype" name="net.scholtzan.macba.json.api.JsonBuilder">JsonBuilder</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#net.scholtzan.macba.json.api.package@JsonArrayBuilderextendsJsonBuilder" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">API to create a JSON array.</p>
+    </li><li name="net.scholtzan.macba.json.api.JsonBuilder" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="JsonBuilderextendsJsonRootContext"></a>
+      <a id="JsonBuilder:JsonBuilder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="JsonBuilder.html"><span class="name">JsonBuilder</span></a><span class="result"> extends <a href="JsonRootContext.html" class="extype" name="net.scholtzan.macba.json.api.JsonRootContext">JsonRootContext</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#net.scholtzan.macba.json.api.package@JsonBuilderextendsJsonRootContext" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Writes JSON as stream and offers an API that allows the creation of valid JSON only.</p>
+    </li><li name="net.scholtzan.macba.json.api.JsonContext" visbl="pub" data-isabs="true" fullComment="yes" group="Ungrouped">
+      <a id="JsonContextextendsAnyRef"></a>
+      <a id="JsonContext:JsonContext"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">sealed </span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="JsonContext.html"><span class="name">JsonContext</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#net.scholtzan.macba.json.api.package@JsonContextextendsAnyRef" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">The JSON context is intended to signify the enclosing structure the JSON is written into.</p><div class="fullcomment"><div class="comment cmt"><p>The JSON context is intended to signify the enclosing structure the JSON is written into.</p><p>These structures are either JSON objects, JSON arrays or the JSON root.
+</p></div></div>
+    </li><li name="net.scholtzan.macba.json.api.JsonObjectBuilder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="JsonObjectBuilderextendsJsonBuilder"></a>
+      <a id="JsonObjectBuilder:JsonObjectBuilder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="JsonObjectBuilder.html"><span class="name">JsonObjectBuilder</span></a><span class="result"> extends <a href="JsonBuilder.html" class="extype" name="net.scholtzan.macba.json.api.JsonBuilder">JsonBuilder</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#net.scholtzan.macba.json.api.package@JsonObjectBuilderextendsJsonBuilder" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">API to create a JSON object.</p>
+    </li><li name="net.scholtzan.macba.json.api.JsonRootContext" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="JsonRootContextextendsJsonContext"></a>
+      <a id="JsonRootContext:JsonRootContext"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="JsonRootContext.html"><span class="name">JsonRootContext</span></a><span class="result"> extends <a href="JsonContext.html" class="extype" name="net.scholtzan.macba.json.api.JsonContext">JsonContext</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#net.scholtzan.macba.json.api.package@JsonRootContextextendsJsonContext" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">Represents the JSON root.</p>
+    </li><li name="net.scholtzan.macba.json.api.JsonValueBuilder" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="JsonValueBuilderextendsJsonBuilder"></a>
+      <a id="JsonValueBuilder:JsonValueBuilder"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="JsonValueBuilder.html"><span class="name">JsonValueBuilder</span></a><span class="result"> extends <a href="JsonBuilder.html" class="extype" name="net.scholtzan.macba.json.api.JsonBuilder">JsonBuilder</a></span>
+      </span>
+      </h4><span class="permalink">
+      <a href="../../../../../index.html#net.scholtzan.macba.json.api.package@JsonValueBuilderextendsJsonBuilder" title="Permalink" target="_top">
+        <img src="../../../../../lib/permalink.png" alt="Permalink" />
+      </a>
+    </span>
+      <p class="shortcomment cmt">API to create a primitive JSON value.</p>
+    </li></ol>
+            </div>
+
+        
+
+        
+
+        
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
